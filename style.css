@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kalam", cursive;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    padding: 0.5em 0 0.5em;
+}
+
+nav a {
+    padding: 2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+div img {
+    width: 100%;
+}
+
+article {
+    display: block;
+    margin: 2em;
+}    
+
+h2 {
+    padding-left: 0.5em;
+    font-size: 2rem;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    text-align: center;
+    border:solid 2px #8c8c8c;
+    border-radius: 50px;
+    width: 180px;
+    background-color: lightgray;
+} 
+
+.btn:hover {
+    background-color: #8c8c8c;
+    cursor: pointer;
+}
+
+/*style setting for section__1 */
+
+.section__1 article {
+    padding: 1em 1em 3em 1em;
+}
+
+.section__1 h2 {
+    border-bottom: solid 2px #6f6f6f;
+}
+
+.section__1 article img {
+    border-radius: 5%;
+    float: right;
+    width: 250px;
+    margin: 1em;
+}
+
+.section__1 article p {
+    padding: 1em;
+}       /* end of style setting for section__1 */
+
+
+
+/*style setting for section__2 */
+
+.section__2 article {
+    border:solid #b0d2cb;
+    border-width: 2px 2px 2px 15px;
+    background-color: #f8fffe;
+    padding-bottom: 5em;
+    margin: 2em;
+}
+
+.section__2 h2 {
+    margin-left: 1.5em;
+}
+
+.section__2 article img {
+    float: left;
+    width: 250px;
+    margin: 1.5em;
+}
+
+.section__2 article p {
+    font-size: 1.5rem;
+    padding: 1em;
+}         /* end of style setting for section__2 */
+
+footer {
+    margin-top: 2em;
+    background-color: chocolate;
+    padding: 0.5em;
+    color: white;
+    font-size: 2rem;
+}
